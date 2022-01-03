@@ -12,20 +12,6 @@
   position: relative;
 }
 
-/* .f-information-link a::before {
-  content: "";
-  background: #000;
-  width: 0%;
-  height: 1px;
-  position: absolute;
-  bottom: 0;
-  transition: all 0.5s ease-in-out;
-}
-
-.f-information-link a:hover::before {
-  width: 100%;
-} */
-
 .f-information-link a:hover {
   text-decoration: underline;
 }

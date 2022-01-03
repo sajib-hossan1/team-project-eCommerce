@@ -2,7 +2,7 @@
   color: black;
   font-family: "Poppins", sans-serif;
   font-weight: 600;
-  font-size: 25px;
+  font-size: 35px;
 }
 
 .brand-title:hover {
@@ -17,6 +17,22 @@
 
 .navbar-links a {
   color: black !important;
+  position: relative;
+  padding: 0px;
+}
+
+.navbar-links a::before {
+  content: "";
+  background: #000;
+  width: 0%;
+  height: 2px;
+  position: absolute;
+  bottom: 0;
+  transition: all 0.3s ease-in-out;
+}
+
+.navbar-links a:hover::before {
+  width: 90%;
 }
 
 .login-btn-header {

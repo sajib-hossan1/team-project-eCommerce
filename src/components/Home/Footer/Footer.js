@@ -9,7 +9,7 @@ const Footer = () => {
             <div className="container">
                 <div className="row m-0">
                     <div className="col-md-6 col-lg-3 ps-2 pe-3 mb-4">
-                        <a class="navbar-brand brand-title" href="#">e-Commerce</a>
+                        <h3 class="footer-title" href="#">e-Commerce</h3>
                         <p className='mb-1'>e-Commerce is a trusted online based shopping website. We are seeing the quality best and the customer satisfaction.</p>
                         <p className='m-0'>Begin your safe online shopping with us</p>
                     </div>
