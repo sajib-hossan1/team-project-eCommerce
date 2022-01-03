@@ -1,7 +1,12 @@
 .brand-title {
+  color: black;
   font-family: "Poppins", sans-serif;
   font-weight: 600;
   font-size: 25px;
+}
+
+.brand-title:hover {
+  color: black;
 }
 
 .navbar-links {
