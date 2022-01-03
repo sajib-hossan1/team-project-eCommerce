@@ -13,3 +13,19 @@
 .navbar-links a {
   color: black !important;
 }
+
+.login-btn-header {
+  color: white;
+  background-color: #1c9fff;
+  border: none;
+  padding: 5px 20px;
+  border-radius: 30px;
+  font-size: 19px;
+  font-weight: 500;
+  transition: 0.2s ease-in-out;
+}
+
+.login-btn-header:hover {
+  background-color: rgb(255, 187, 0);
+  color: black;
+}
